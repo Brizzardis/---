@@ -4,6 +4,11 @@
         "X-Author": "i_brilenkov",
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "text/html; charset=utf-8"  
-    }
+        }
+      "/sample/":  {
+        "X-Author": "brilenkov",
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "text/html; charset=utf-8"     
+      }  
   }
 }
