@@ -5,10 +5,8 @@
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "text/html; charset=utf-8"  
         }
-      "/sample/":  {
+      "/sample":  {
         "X-Author": "brilenkov",
-        "Access-Control-Allow-Origin": "*",
-        "Content-Type": "text/html; charset=utf-8"     
       }  
   }
 }
