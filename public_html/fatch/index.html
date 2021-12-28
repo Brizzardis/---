@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Страница HTML5</title><meta charset="utf-8">
+ </head>
+ <body>
+  <article>
+
+    <input type="text" id="imp">
+    <button id = "bt"> </button>
+    
+    <script>
+    document.getElementById("inp").addEventListener("click, task);
+      function task(){
+        const response = 			        
+        fetch(document.getElementById('inp').value)
+        .then(response => response.text())
+        .then((data) => {
+        document.getElementById('inp').value = data;
+        });
+    };
+	</script>
+  </article>
+ </body>
+</html>
